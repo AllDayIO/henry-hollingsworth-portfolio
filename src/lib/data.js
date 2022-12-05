@@ -1,5 +1,5 @@
-const name = 'Ken Jones';
-const email = 'email@kenjones.pizza';
+const name = 'Henry Hollingsworth';
+const email = 'henry@allday.io';
 const links = {
 	chat: {
 		text: 'Schedule a Chat',
@@ -9,49 +9,36 @@ const links = {
 	resume:
 		'https://res.cloudinary.com/kenjones/image/upload/v1668494839/kenjones.pizza/Ken-Jones-Resume.pdf' // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
 };
-const titles = ['🎨 Designer', '🧑🏾‍💻 Engineer', '🐶 Foster Dad', '🕹 Gamer', '🦉 Birder'];
+const titles = [
+	'Explorer',
+	'Solutionist ',
+	'Deep Thinker',
+	'Conceptor ',
+	'Designer',
+	'Producer',
+	'Nature Enthusiast',
+	'One-Wheeler',
+	'Collaborator',
+	'Web Architect',
+	'Digital Marketer',
+	'Your Hype Man '
+];
+
 const bio = `<p class="font-serif text-3xl lg:text-5xl font-light leading-tight">
-I’m a web consultant with skills and experience as a <strong class="font-bold"
-  >designer</strong
->,
-<strong class="font-bold">engineer</strong>, and
-<strong class="font-bold">team lead</strong>. I’ve been building the web for the past
-<strong class="font-bold">15 years</strong>
-and am ready for my
-<strong class="font-bold"
-  ><a href="/#next-opportunity" class="underline underline-offset-[6px]  hover:text-primary transition-all"
-    >next opportunity</a
-  ></strong
->.
+I am a web consultant and producer of personalized online experiences that resonate with their target audience. My expertise in user experience, design systems, and brand marketing growth strategies help businesses develop a strong foundation to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.
 </p>
 <p class="text-xl lg:text-2xl text-gray/70 leading-normal">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque
-aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed
-pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc
-tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. 
 </p>`;
 const cloudinaryConfig = {
 	cloudName: 'kenjones',
-	folder: 'kenjones.pizza' // leave blank if no folder was used
+	folder: 'henry-hollingsworth' // leave blank if no folder was used
 };
 const logoImage = {
-	src: '1',
+	src: 'henry-1',
 	alt: name
 };
-const bioImages = [
-	{ src: '1', alt: name },
-	{ src: '2', alt: name },
-	{ src: '3', alt: name },
-	{ src: '4', alt: name },
-	{ src: '5', alt: name },
-	{ src: '6', alt: name },
-	{ src: '7', alt: name },
-	{ src: '8', alt: name },
-	{ src: '9', alt: name },
-	{ src: '10', alt: name },
-	{ src: '11', alt: name },
-	{ src: '12', alt: name }
-];
+const bioImages = [{ src: 'henry-1', alt: name }];
 const resume = `<!-- Entry -->
 <div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
@@ -60,23 +47,21 @@ const resume = `<!-- Entry -->
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">AllDay</span> (Remote) - Web Agency.
+							<span class="font-bold">AllDay</span> (Remote).
 						</h3>
-						<h4 class="text-xl font-medium italic">Founder, Design & Enginering Lead</h4>
+						<h4 class="text-xl font-medium italic">Director, Web Strategy & UX  Co-Founder</h4>
 						
 					</div>
 				</div>
 				<!-- Entry -->
 				<div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
-						<time datetime="2008-02-14 20:00">February 2015 </time> -
-						<time datetime="2008-02-14 20:00">October 2015</time>,<br />
-						<time datetime="2008-02-14 20:00">July 2012</time> -
-						<time datetime="2008-02-14 20:00">October 2013</time>
+						<time datetime="2008-02-14 20:00">2014 </time> -
+						<time datetime="2008-02-14 20:00">2015</time>
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">Freelance Consultant</span> (Remote)
+							<span class="font-bold">Vology</span> (Tampa, FL)
 						</h3>
 						<h4 class="text-xl font-medium italic">Designer/Engineer</h4>
 						
@@ -85,110 +70,48 @@ const resume = `<!-- Entry -->
 				<!-- Entry -->
 				<div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
-						<time datetime="2008-02-14 20:00">October 2013 </time> -
-						<time datetime="2008-02-14 20:00">February 2015</time>
+						<time datetime="2008-02-14 20:00">2014</time> -
+						<time datetime="2008-02-14 20:00">2015</time>
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">Red Ventures</span> (Charlotte, NC.) - Customer Acquisition Specialists
+							<span class="font-bold">Freelance</span> (Tampa, FL & Denver, CO) 
 						</h3>
-						<h4 class="text-xl font-medium italic">Web Designer / Developer Hybrid</h4>
+						<h4 class="text-xl font-medium italic">Front-End Website Developer</h4>
 						
 					</div>
 				</div>
 				<!-- Entry -->
 				<div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
-						<time datetime="2008-02-14 20:00">October 2013 </time> -
-						<time datetime="2008-02-14 20:00">February 2015</time>
+						<time datetime="2008-02-14 20:00">2012</time> -
+						<time datetime="2008-02-14 20:00">2014</time>
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
 							<span class="font-bold">Paradise Advertising and Marketing</span> (St. Petersburg, Fl.)
 							- Agency
 						</h3>
-						<h4 class="text-xl font-medium italic">Front-End Developer & Web Designer</h4>
+						<h4 class="text-xl font-medium italic">Digital Manager / Social Media Manager - 2013 - 2014</h4>
+						<h4 class="text-xl font-medium italic">Interactive / Public Relations Coordinator - 2012 - 2013</h4>
 						
 					</div>
 				</div>
 				<!-- Entry -->
 				<div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
-						<time datetime="2008-02-14 20:00">May 2008 </time> -
-						<time datetime="2008-02-14 20:00">April 2012</time>
+						Early Career
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
-						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">eLink Design</span> (Lexington, Ky.) - Web Agency
-						</h3>
-						<h4 class="text-xl font-medium italic">
-							Front-End Developer & Lead Designer
+					<h4 class="text-lg font-serif">
+							<span class="font-bold">Trifecta Team, LLC</span> – PR/Web Consultant<br>
+							<span class="font-bold">Tampa Bay Buccaneers</span> – PR Intern / Training Camp Assistant <br>
+							<span class="font-bold">The Tennis Channel</span> – Production Intern <br>
+							<span class="font-bold">Pressure Wash South Tampa</span> – Owner/Operator
 						</h4>
-						
 					</div>
 				</div>`;
 const caseStudies = [
-	{
-		slug: 'birdables',
-		name: 'Birdable (Passion Project)',
-		mainImage: 'birdables-main',
-		images: [
-			{
-				src: 'birdables-main',
-				alt: 'Birdables Home Page',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
-			{
-				src: 'birdables-cards',
-				alt: 'Birdables Cards Page',
-				title: 'Cards Page',
-				isBrowserPreview: true
-			},
-			{
-				src: 'birdables-about',
-				alt: 'Birdables About Page',
-				title: 'Cards Page',
-				isBrowserPreview: true
-			},
-			{
-				src: 'brown-pelican',
-				alt: 'Brown Pelican Card',
-				title: 'Brown Pelican Card',
-				isBrowserPreview: false
-			},
-			{
-				src: 'roseate-spoonbill',
-				alt: 'Roseate Spoonbill Card',
-				title: 'Roseate Spoonbill Card',
-				isBrowserPreview: false
-			},
-			{
-				src: 'cards-on-grass',
-				alt: 'Cards on grass',
-				title: 'Bridables Cards Printed',
-				isBrowserPreview: false
-			}
-		],
-		shortDescription: `Birdables is a passion project that I launched in 2021. It's a collection of physical & digital collectable bird cards, accompanied by a custome website.  Completely designed and developed by me.`,
-		longDescription: `<p>Birdables is a passion project that I launched in 2021. It's a collection of physical & digital collectable bird cards, accompanied by a custome website.  Completely designed and developed by me.</p>
-		<p><span class="font-bold">Technologies Used:</span>
-		<ul>
-			<li><a href="https://kit.svelte.dev/">SvelteKit</a></li>
-				<li><a href="https://turbo.build/repo">Figma</a></li>
-				<li><a href="https://www.adobe.com/products/photoshop.html">Photoshop</a></li>
-				<li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
-				<li><a href="https://vercel.com/">Vercel</a></li>
-				<li><a href="https://sanity.io/">Sanity CMS</a></li>
-				<li><a href="https://opensea.io/">OpenSea</a></li>
-				<li><a href="https://www.etsy.com/">Etsy</a></li>
-		</ul>
-	</p>`, // can be html
-		button: {
-			url: 'https://birdables.com',
-			text: 'View Live Site'
-		}
-	},
 	{
 		slug: 'pcs',
 		name: 'PCS Companies',
@@ -219,17 +142,18 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `PCS, &estimate, and &build are 3 sites that share a UI Component library, to make updating the design system of the sites more efficent.`,
-		longDescription: `<p>PCS, &estimate, and &build are 3 sites that share a UI Component library, to make updating the design system of the sites more efficent.  Running 3 connected sites that share code but have differences (colors, logos, text, images, etc) called for an effective use of a Monorepo and some, some nifty config files, and utility functions to keep the wires pointing in the right direction:</p>
+		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth. 
+		`,
+		longDescription: `<p>A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth.</p>
 		
-		<p><span class="font-bold">Technologies Used:</span>
+		<p><span class="font-bold">Web Services:</span>
 			<ul>
-				<li><a href="https://kit.svelte.dev/">SvelteKit</a></li>
-				<li><a href="https://turbo.build/repo">Turbo Monorepo</a></li>
-				<li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
-				<li><a href="https://vercel.com/">Vercel</a></li>
-				<li><a href="https://sanity.io/">Sanity CMS</a></li>
-				<li><a href="https://kwesforms.com/">KWES Forms</a></li>
+				<li>3 websites on a Monorepo </li>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes for each website</li>
+				<li>UX Design System & Component Libray </li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth for each website</li>
 			</ul>
 		</p>` // can be html
 	},
@@ -291,8 +215,18 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `Fly USA came to me needing a newly designed site and Booking process to help successfully convert interested customers.`,
-		longDescription: `<p>Fly USA needed a website facelift.  Previously they were dealing with confused customers who didnt understand their product.  I provided them with a fresh design and brand new Booking Process, which as them flying high.</p>`, // can be html
+		shortDescription: `A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience. We architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, we create a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.`,
+		longDescription: `<p>A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience. We architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, we create a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.</p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes</li>
+				<li>UX Design System & Technical Designs</li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth </li>
+			</ul>
+		</p>`, // can be html
 		button: {
 			url: 'https://flyusa.com',
 			text: 'View Live Site'
@@ -322,13 +256,29 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `Daily Hangar was my first fully custom designed and engineered web app.`,
-		longDescription: `<p>Daily Hangar came to me as a startup needing a full web app with a backend admin.  the premis of their product was like an AirBNB for air</p>` // can be html
+		shortDescription: `A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. 
+		Web Services`,
+		longDescription: `<p>A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. 
+		Web Services</p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Concepting, Prototyping & Planning</li>
+				<li>Custom UX | UI Web Design</li>
+				<li>Custom Frontend Development</li>
+				<li>Custom CMS</li>
+				<li>Gated access to 4 user-types </li>
+				<li>Custom Platform Development</li>
+				<li>Custom SuperAdmin Panel </li>
+				<li>Automated CX emails & email template design</li>
+				<li>Maintenance / Support</li>
+			</ul>
+		</p>` // can be html
 	}
 ];
 const cta = {
 	heading: 'I’m currently looking for new opportunities',
-	text: 'After a 7 year stint of successfully running a digital web agency for 7 years, I’m ready for my next challenge. With 15 years experience in <strong class="font-extrabold">design</strong>, <strong class="font-extrabold">engineering</strong>, <strong class="font-extrabold">consulting</strong>, and <strong class="font-extrabold">managing</strong>.' // Can be HTML
+	text: `After a successful 7-year stint running a web agency, I'm ready for my next challenge. With over 12 years of experience in branding, design, UX, web development, and digital media, I feel ready to partner with a company I'm passionate about to unlock our next level together.` // Can be HTML
 };
 const copyright = 'KenJonesPizza';
 const meta = {
