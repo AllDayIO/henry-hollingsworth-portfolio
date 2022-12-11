@@ -280,7 +280,7 @@ const cta = {
 	heading: 'I’m currently looking for new opportunities',
 	text: `After a successful 7-year stint running a web agency, I'm ready for my next challenge. With over 12 years of experience in branding, design, UX, web development, and digital media, I feel ready to partner with a company I'm passionate about to unlock our next level together.` // Can be HTML
 };
-const copyright = 'KenJonesPizza';
+const copyright = 'Henry Hollingsworth';
 const meta = {
 	favicon: '1',
 	OgImage: '1',
