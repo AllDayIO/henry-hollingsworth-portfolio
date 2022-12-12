@@ -7,7 +7,10 @@ const links = {
 	},
 	linkedIn: 'https://www.linkedin.com/in/kenjazzyjones/',
 	resume:
-		'https://res.cloudinary.com/kenjones/image/upload/v1668494839/kenjones.pizza/Ken-Jones-Resume.pdf' // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
+		'https://res.cloudinary.com/kenjones/image/upload/v1668494839/kenjones.pizza/Ken-Jones-Resume.pdf', // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
+	menu: {
+		linkedIn: 'https://www.linkedin.com/in/henryhollingsworth/'
+	}
 };
 const titles = [
 	'Explorer',
@@ -24,7 +27,7 @@ const titles = [
 	'Your Hype Man '
 ];
 
-const bio = `<p class="font-serif text-3xl lg:text-5xl font-light leading-tight">
+const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">
 I am a web consultant and producer of personalized online experiences that resonate with their target audience. My expertise in user experience, design systems, and brand marketing growth strategies help businesses develop a strong foundation to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.
 </p>
 <p class="text-xl lg:text-2xl text-gray/70 leading-normal">
@@ -115,13 +118,24 @@ const caseStudies = [
 	{
 		slug: 'pcs',
 		name: 'PCS Companies',
-		mainImage: 'pcs',
+
+		mainImage: {
+			src: 'pcs', // Name from Cloudinary
+			alt: 'PCS Homepage',
+			isBrowserPreview: true
+		},
 		images: [
 			{
 				src: 'pcs',
 				alt: 'PCS Homepage',
 				title: 'Blog Homepage',
 				isBrowserPreview: true
+			},
+			{
+				src: 'pcs-sitemap',
+				alt: 'PCS Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
 			},
 			{
 				src: 'pcs-locations',
@@ -155,12 +169,20 @@ const caseStudies = [
 				<li>Frontend & CMS Development </li>
 				<li>Website Support / Growth for each website</li>
 			</ul>
-		</p>` // can be html
+		</p>`, // can be html
+		button: {
+			url: 'https://pcscompanies.com',
+			text: 'View Live Site'
+		}
 	},
 	{
 		slug: 'red-ventures',
 		name: 'Red Ventures (Blog & Careers Site)',
-		mainImage: 'rv-blog',
+		mainImage: {
+			src: 'rv-blog',
+			alt: 'Red Ventures Blog',
+			isBrowserPreview: true
+		},
 		images: [
 			{
 				src: 'rv-blog',
@@ -194,13 +216,23 @@ const caseStudies = [
 	{
 		slug: 'fly-usa',
 		name: 'Fly USA',
-		mainImage: 'flyusa-homepage',
+		mainImage: {
+			src: 'flyusa-homepage',
+			alt: 'Fly USA',
+			isBrowserPreview: true
+		},
 		images: [
 			{
 				src: 'flyusa-homepage',
 				alt: 'Fly USA',
 				title: 'Homepage',
 				isBrowserPreview: true
+			},
+			{
+				src: 'fly-usa-sitemap',
+				alt: 'Fly Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
 			},
 			{
 				src: 'flyusa-booking',
@@ -232,16 +264,27 @@ const caseStudies = [
 			text: 'View Live Site'
 		}
 	},
+
 	{
 		slug: 'daily-hangar',
 		name: 'Daily Hangar',
-		mainImage: 'dailyhangar-homepage',
+		mainImage: {
+			src: 'dailyhangar-homepage',
+			alt: 'Daily Hangar Homepage',
+			isBrowserPreview: true
+		},
 		images: [
 			{
 				src: 'dailyhangar-homepage',
 				alt: 'Daily Hangar Homepage',
 				title: 'Homepage',
 				isBrowserPreview: true
+			},
+			{
+				src: 'daily-hangar-sitemap',
+				alt: 'Daily Hangar Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
 			},
 			{
 				src: 'dailyhangar-listing',
@@ -274,6 +317,124 @@ const caseStudies = [
 				<li>Maintenance / Support</li>
 			</ul>
 		</p>` // can be html
+	},
+	{
+		slug: 'tampa-dunkin',
+		name: 'Tampa Dunkin’ Donuts',
+		mainImage: {
+			src: 'tampa-dd-homepage',
+			alt: 'Tampa Dunkinn Homepage',
+			isBrowserPreview: true
+		},
+		images: [
+			{
+				src: 'tampa-dd-homepage',
+				alt: 'Tampa Dunkinn’ Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'tampa-dd-employment',
+				alt: 'Employment Page',
+				title: 'Employment Page',
+				isBrowserPreview: true
+			},
+			{
+				src: 'dunkin-sitemap',
+				alt: 'Tampa Dunkinn’ Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
+			}
+		],
+		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
+		longDescription: `<p>Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Sitemap Userflow </li>
+				<li>UX Wireframes </li>
+				<li>Custom Design System</li>
+				<li>JS Frontend Development</li>
+				<li>Custom CMS </li>
+				<li>Ongoing Support</li>
+			</ul>
+		</p>`, // can be html
+		button: {
+			url: 'https://tampadd.com',
+			text: 'View Live Site'
+		}
+	},
+	{
+		slug: 'allpoint-retail',
+		name: 'All Point Retail',
+		mainImage: {
+			src: 'allpoint-homepage',
+			alt: 'All Point Retail Homepage',
+			isBrowserPreview: true
+		},
+		button: {
+			url: 'https://www.allpointretail.com/',
+			text: 'View Live Site'
+		},
+		images: [
+			{
+				src: 'allpoint-homepage',
+				alt: 'All Point Retail Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'allpoint-wireframes',
+				alt: 'All Point Retail Wireframes',
+				title: 'Employment Page',
+				isBrowserPreview: true
+			}
+		],
+		shortDescription: `All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. `,
+		longDescription: `<p>All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. </p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes</li>
+				<li>UX Design System </li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth </li>
+			</ul>
+		</p>` // can be html
+	},
+	{
+		slug: 'jivey',
+		name: 'Jivey',
+		mainImage: {
+			src: 'jivey-sitemap',
+			alt: 'Jivey Sitemap',
+			isBrowserPreview: false
+		},
+		button: {
+			url: 'https://www.allpointretail.com/',
+			text: 'View Live Site'
+		},
+		images: [
+			{
+				src: 'jivey-sitemap',
+				alt: 'Jive',
+				title: 'Homepage',
+				isBrowserPreview: false
+			}
+		],
+		shortDescription: `Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.`,
+		longDescription: `<p>Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.</p><p>As one of the original co-founders of the start-up, I had the opportunity to help develop the branding, app features, and system architecture for the end-user experience.  Once these items were packaged up, we had several meetings with prospective investors who saw the value, and we came close to an agreement with multiple angel investors. Now that the platform has made it into a functional Beta, the Jivey team feels that the platform would flourish once integrated into a B2B or B2C infrastructure to serve a more focused purpose.</p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes</li>
+				<li>UX Design System </li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth </li>
+			</ul>
+		</p>` // can be html
 	}
 ];
 const cta = {
@@ -282,15 +443,19 @@ const cta = {
 };
 const copyright = 'Henry Hollingsworth';
 const meta = {
-	favicon: '1',
-	OgImage: '1',
-	title: `${name} | Web designer, developer, specialist`,
+	favicon: 'henry-1',
+	OgImage: 'henry-1',
+	title: `${name} | Architect, Digital Marketer`,
 	description: `${name}'s portfolio website.  Email him at: ${email}`,
-	siteName: `KenJonesPizza`,
-	twitterUsername: 'kenjonespizza'
+	siteName: `Henry Hollingsworth`,
+	twitterUsername: ''
+};
+const sourceCode = {
+	showCode: false,
+	link: 'https://github.com/kenjonespizza/kenjones.pizza'
 };
 const posthog = {
-	key: 'phc_w7KCAXCdTTEQBYQeQMmDhzPBECMCIovl19E4mVIiIT2'
+	key: ''
 };
 
 export const data = {
@@ -307,5 +472,6 @@ export const data = {
 	cloudinaryConfig,
 	cta,
 	copyright,
-	posthog
+	posthog,
+	sourceCode
 };
