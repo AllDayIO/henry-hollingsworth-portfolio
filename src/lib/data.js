@@ -27,16 +27,7 @@ const titles = [
 	'Your Hype Man '
 ];
 
-<<<<<<< HEAD
-const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">
-=======
-const bio = `<p class="font-serif text-3xl lg:text-5xl font-light leading-tight">
->>>>>>> 9ab9488a00150dcbf83ad2de60e9e2b314e02e3c
-I am a web consultant and producer of personalized online experiences that resonate with their target audience. My expertise in user experience, design systems, and brand marketing growth strategies help businesses develop a strong foundation to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.
-</p>
-<p class="text-xl lg:text-2xl text-gray/70 leading-normal">
-Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. 
-</p>`;
+const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and producer of personalized online experiences that resonate with their target audience. My expertise in user experience, design systems, and brand marketing growth strategies help businesses develop a strong foundation to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
 const cloudinaryConfig = {
 	cloudName: 'kenjones',
 	folder: 'henry-hollingsworth' // leave blank if no folder was used
@@ -321,7 +312,6 @@ const caseStudies = [
 				<li>Maintenance / Support</li>
 			</ul>
 		</p>` // can be html
-<<<<<<< HEAD
 	},
 	{
 		slug: 'tampa-dunkin',
@@ -440,8 +430,6 @@ const caseStudies = [
 				<li>Website Support / Growth </li>
 			</ul>
 		</p>` // can be html
-=======
->>>>>>> 9ab9488a00150dcbf83ad2de60e9e2b314e02e3c
 	}
 ];
 const cta = {
