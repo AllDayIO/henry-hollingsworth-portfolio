@@ -406,10 +406,6 @@ const caseStudies = [
 			alt: 'Jivey Sitemap',
 			isBrowserPreview: false
 		},
-		button: {
-			url: 'https://www.allpointretail.com/',
-			text: 'View Live Site'
-		},
 		images: [
 			{
 				src: 'jivey-sitemap',
@@ -421,7 +417,7 @@ const caseStudies = [
 		shortDescription: `Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.`,
 		longDescription: `<p>Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.</p><p>As one of the original co-founders of the start-up, I had the opportunity to help develop the branding, app features, and system architecture for the end-user experience.  Once these items were packaged up, we had several meetings with prospective investors who saw the value, and we came close to an agreement with multiple angel investors. Now that the platform has made it into a functional Beta, the Jivey team feels that the platform would flourish once integrated into a B2B or B2C infrastructure to serve a more focused purpose.</p>
 
-		<p><span class="font-bold">Web Services:</span>
+		/*<p><span class="font-bold">Web Services:</span>
 			<ul>
 				<li>Website Strategy & Userflow </li>
 				<li>CX Wireframes</li>
@@ -429,7 +425,7 @@ const caseStudies = [
 				<li>Frontend & CMS Development </li>
 				<li>Website Support / Growth </li>
 			</ul>
-		</p>` // can be html
+		</p>*/` // can be html
 	},
 	{
 		slug: 'the-propeller-club',
@@ -440,13 +436,37 @@ const caseStudies = [
 			isBrowserPreview: false
 		},
 		button: {
-			url: 'https://www.allpointretail.com/',
+			url: 'https://www.propellerclubtampa.com/',
 			text: 'View Live Site'
 		},
 		images: [
 			{
-				src: 'jivey-sitemap',
-				alt: 'Jive',
+				src: 'tpc-homepage',
+				alt: 'The Propeller Club',
+				title: 'Homepage',
+				isBrowserPreview: false
+			},
+			{
+				src: 'tpc-sitemap',
+				alt: 'The Propeller Club',
+				title: 'Homepage',
+				isBrowserPreview: false
+			},
+			{
+				src: 'tpc-website-wireframes',
+				alt: 'The Propeller Club',
+				title: 'Homepage',
+				isBrowserPreview: false
+			},
+			{
+				src: 'tpc-sitemap',
+				alt: 'The Propeller Club',
+				title: 'Homepage',
+				isBrowserPreview: false
+			},
+			{
+				src: 'tpc-sitemap',
+				alt: 'The Propeller Club',
 				title: 'Homepage',
 				isBrowserPreview: false
 			}
