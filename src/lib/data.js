@@ -430,6 +430,88 @@ const caseStudies = [
 				<li>Website Support / Growth </li>
 			</ul>
 		</p>` // can be html
+	},
+	{
+		slug: 'the-propeller-club',
+		name: 'The Propeller Club',
+		mainImage: {
+			src: 'jivey-sitemap',
+			alt: 'Jivey Sitemap',
+			isBrowserPreview: false
+		},
+		button: {
+			url: 'https://www.allpointretail.com/',
+			text: 'View Live Site'
+		},
+		images: [
+			{
+				src: 'jivey-sitemap',
+				alt: 'Jive',
+				title: 'Homepage',
+				isBrowserPreview: false
+			}
+		],
+		shortDescription: `The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. `,
+		longDescription: `<p>The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. </p>
+
+		<p><span class="font-bold">User Experience:</span>
+			<ul>
+				<li>The website's event & news areas will increase member awareness as they engage through social media and get involved; </li>
+				<li>find industry resources, volunteer / educational outreach opportunities through the email newsletter, webpages and local SEO strategies; </li>
+				<li>an email automation series & submitted applications will drive members to their interactive portal to get involved. </li>
+				<li>continue optimizing the visibility of the TPC website through ongoing content, integrated marketing & SEO strategies. </li>
+			</ul>
+		</p>
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes</li>
+				<li>UX Design System </li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth </li>
+			</ul>
+		</p>` // can be html
+	},
+	{
+		slug: 'swift-delivery',
+		name: 'Swift Delivery',
+		mainImage: {
+			src: 'jivey-sitemap',
+			alt: 'Jivey Sitemap',
+			isBrowserPreview: false
+		},
+		button: {
+			url: 'https://www.allpointretail.com/',
+			text: 'View Live Site'
+		},
+		images: [
+			{
+				src: 'jivey-sitemap',
+				alt: 'Jive',
+				title: 'Homepage',
+				isBrowserPreview: false
+			}
+		],
+		shortDescription: `The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. `,
+		longDescription: `<p>The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. </p>
+
+		<p><span class="font-bold">User Experience:</span>
+			<ul>
+				<li>The website's event & news areas will increase member awareness as they engage through social media and get involved; </li>
+				<li>find industry resources, volunteer / educational outreach opportunities through the email newsletter, webpages and local SEO strategies; </li>
+				<li>an email automation series & submitted applications will drive members to their interactive portal to get involved. </li>
+				<li>continue optimizing the visibility of the TPC website through ongoing content, integrated marketing & SEO strategies. </li>
+			</ul>
+		</p>
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Website Strategy & Userflow </li>
+				<li>CX Wireframes</li>
+				<li>UX Design System </li>
+				<li>Frontend & CMS Development </li>
+				<li>Website Support / Growth </li>
+			</ul>
+		</p>` // can be html
 	}
 ];
 const cta = {
