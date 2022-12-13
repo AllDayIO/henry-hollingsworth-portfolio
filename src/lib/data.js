@@ -5,9 +5,9 @@ const links = {
 		text: 'Schedule a Chat',
 		url: 'https://calendly.com/allday/30min'
 	},
-	linkedIn: 'https://www.linkedin.com/in/kenjazzyjones/',
+	linkedIn: 'https://www.linkedin.com/in/henryhollingsworth/',
 	resume:
-		'https://res.cloudinary.com/kenjones/image/upload/v1668494839/kenjones.pizza/Ken-Jones-Resume.pdf', // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
+		'https://res.cloudinary.com/kenjones/image/upload/v1670906178/henry-hollingsworth/Henry_Hollingsworth_resume_v1.pdf', // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
 	menu: {
 		linkedIn: 'https://www.linkedin.com/in/henryhollingsworth/'
 	}
@@ -51,7 +51,7 @@ const resume = `<!-- Entry -->
 						<h3 class="font-serif text-2xl leading-none mb-1	">
 							<span class="font-bold">AllDay</span> (Remote).
 						</h3>
-						<h4 class="text-xl font-medium italic">Director, Web Strategy & UX  Co-Founder</h4>
+						<h4 class="text-xl font-medium italic">Co-Founder | Director, Web Strategy & UX</h4>
 						
 					</div>
 				</div>
@@ -94,8 +94,8 @@ const resume = `<!-- Entry -->
 							<span class="font-bold">Paradise Advertising and Marketing</span> (St. Petersburg, Fl.)
 							- Agency
 						</h3>
-						<h4 class="text-xl font-medium italic">Digital Manager / Social Media Manager - 2013 - 2014</h4>
-						<h4 class="text-xl font-medium italic">Interactive / Public Relations Coordinator - 2012 - 2013</h4>
+						<h4 class="text-xl font-medium italic">Digital Manager / Social Media Manager - 2013 - 2014<br />
+						Interactive / Public Relations Coordinator - 2012 - 2013</h4>
 						
 					</div>
 				</div>
