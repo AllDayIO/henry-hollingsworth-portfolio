@@ -183,6 +183,6 @@
 		</Container>
 	</section>
 {/if}
-<!-- <Container>
-		<CTA />
-	</Container> -->
+<Container>
+	<CTA />
+</Container>
