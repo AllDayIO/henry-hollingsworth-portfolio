@@ -112,6 +112,10 @@ const resume = `<!-- Entry -->
 							<span class="font-bold">Pressure Wash South Tampa</span> – Owner/Operator
 						</h4>
 					</div>
+					button: {
+						url: 'https://res.cloudinary.com/kenjones/image/upload/v1670906178/henry-hollingsworth/Henry_Hollingsworth_resume_v1.pdf',
+						text: 'View Resume'
+						}
 				</div>`;
 const caseStudies = [
 	{
