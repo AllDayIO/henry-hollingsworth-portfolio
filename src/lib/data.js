@@ -126,12 +126,7 @@ const caseStudies = [
 				title: 'Blog Homepage',
 				isBrowserPreview: true
 			},
-			{
-				src: 'pcs-sitemap',
-				alt: 'PCS Sitemap',
-				title: 'Sitemap',
-				isBrowserPreview: false
-			},
+
 			{
 				src: 'pcs-locations',
 				alt: 'PCS Locations',
@@ -149,6 +144,12 @@ const caseStudies = [
 				alt: '&build Homepage',
 				title: 'Creatives Page',
 				isBrowserPreview: true
+			},
+			{
+				src: 'pcs-sitemap',
+				alt: 'PCS Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
 			}
 		],
 		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth. 
@@ -431,9 +432,9 @@ const caseStudies = [
 		slug: 'the-propeller-club',
 		name: 'The Propeller Club',
 		mainImage: {
-			src: 'jivey-sitemap',
-			alt: 'Jivey Sitemap',
-			isBrowserPreview: false
+			src: 'tpc-homepage',
+			alt: 'Homepage',
+			isBrowserPreview: true
 		},
 		button: {
 			url: 'https://www.propellerclubtampa.com/',
@@ -444,30 +445,30 @@ const caseStudies = [
 				src: 'tpc-homepage',
 				alt: 'The Propeller Club',
 				title: 'Homepage',
-				isBrowserPreview: false
+				isBrowserPreview: true
+			},
+			{
+				src: 'tpc-education',
+				alt: 'The Propeller Club',
+				title: 'Local Outreach Page',
+				isBrowserPreview: true
 			},
 			{
 				src: 'tpc-sitemap',
 				alt: 'The Propeller Club',
-				title: 'Homepage',
+				title: 'Site Map',
 				isBrowserPreview: false
 			},
 			{
 				src: 'tpc-website-wireframes',
 				alt: 'The Propeller Club',
-				title: 'Homepage',
+				title: 'Wireframes',
 				isBrowserPreview: false
 			},
 			{
-				src: 'tpc-sitemap',
-				alt: 'The Propeller Club',
-				title: 'Homepage',
-				isBrowserPreview: false
-			},
-			{
-				src: 'tpc-sitemap',
-				alt: 'The Propeller Club',
-				title: 'Homepage',
+				src: 'tpc-member-portal',
+				alt: 'The Propeller Club Member Portal',
+				title: 'Member Portal',
 				isBrowserPreview: false
 			}
 		],
