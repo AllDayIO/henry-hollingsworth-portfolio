@@ -3,7 +3,7 @@ const email = 'henry@allday.io';
 const links = {
 	chat: {
 		text: 'Schedule a Chat',
-		url: 'https://calendly.com/kenjonespizza/'
+		url: 'https://calendly.com/allday/30min'
 	},
 	linkedIn: 'https://www.linkedin.com/in/kenjazzyjones/',
 	resume:
