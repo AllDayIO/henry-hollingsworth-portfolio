@@ -654,7 +654,7 @@ const caseStudies = [
 			isBrowserPreview: true
 		},
 		button: {
-			url: 'https://www.allpointretail.com/',
+			url: 'https://www.cabinetchic.com/',
 			text: 'View Live Site'
 		},
 		images: [
@@ -690,7 +690,26 @@ const caseStudies = [
 			}
 		],
 		shortDescription: `The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins and wanted to create a website that reflected her quality of work. After two years with a new website, last year website visitors increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming the reliable customer experience.`,
-		longDescription: `<p>The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.</p>` // can be html
+		longDescription: `<p>The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.</p>
+		
+		<p><span class="font-bold">User Experience:</span>
+			<ul>
+				<li>Website becomes visual resource for prospective customers to assemble design ideas</li>
+				<li>Accessible filters to personalize the experience for each customer</li>
+				<li>Interconnected dynamic Galleries & Case Studies for design inspiration</li>
+				<li>Dynamic blog & lead generation funnels to convert curious visitors into customers</li>
+			</ul>
+		</p>
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Sitemap / USerflow</li>
+				<li>Wireframe Prototyping </li>
+				<li>Webflow Design Development</li>
+				<li>SEO & Copywriting</li>
+				<li>Ongoing Support / Growth</li> 
+			</ul>
+		</p>` // can be html
+		
 	}
 ];
 const cta = {
