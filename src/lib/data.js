@@ -668,7 +668,7 @@ const caseStudies = [
 				src: 'hcab-sitemap',
 				alt: 'Cabinetry Site Map',
 				title: 'Custom Cabinetry Userflow',
-				isBrowserPreview: false
+				isBrowserPreview: true
 			},
 			{
 				src: 'hcab-wireframes',
