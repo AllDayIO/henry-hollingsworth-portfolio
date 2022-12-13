@@ -36,7 +36,11 @@ const logoImage = {
 	src: 'henry-1',
 	alt: name
 };
-const bioImages = [{ src: 'henry-1', alt: name }];
+const bioImages = [
+	{ src: 'henry-1', alt: name },
+	{ src: 'onewheel-hen', alt: name },
+	{ src: 'henry-denver', alt: name }
+];
 const resume = `<!-- Entry -->
 <div class="flex flex-col md:flex-row justify-start gap-6">
 					<div class="-translate-x-3 md:translate-x-0 min-w-[200px] text-gray/70 text-sm">
@@ -150,6 +154,12 @@ const caseStudies = [
 				alt: 'PCS Sitemap',
 				title: 'Sitemap',
 				isBrowserPreview: false
+			},
+			{
+				src: 'pcs-wireframes',
+				alt: 'PCS wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
 			}
 		],
 		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth. 
@@ -203,6 +213,12 @@ const caseStudies = [
 				alt: 'Red Ventures Creatives',
 				title: 'Creatives Page',
 				isBrowserPreview: true
+			},
+			{
+				src: 'red-ventures-blog',
+				alt: 'Blog Wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
 			}
 		],
 		shortDescription: `Custom Wordpress blog and PHP/GreenHouse API careers site for Red Ventures.`,
@@ -276,12 +292,7 @@ const caseStudies = [
 				title: 'Homepage',
 				isBrowserPreview: true
 			},
-			{
-				src: 'daily-hangar-sitemap',
-				alt: 'Daily Hangar Sitemap',
-				title: 'Sitemap',
-				isBrowserPreview: false
-			},
+
 			{
 				src: 'dailyhangar-listing',
 				alt: 'Daily Hangar Listing',
@@ -291,8 +302,14 @@ const caseStudies = [
 			{
 				src: 'dailyhangar-map',
 				alt: 'Daily Hangar map',
-				title: 'Daily Hangar map/Listings',
+				title: 'Site Map',
 				isBrowserPreview: true
+			},
+			{
+				src: 'daily-hangar-sitemap',
+				alt: 'Daily Hangar Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
 			}
 		],
 		shortDescription: `A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. 
@@ -325,7 +342,7 @@ const caseStudies = [
 		images: [
 			{
 				src: 'tampa-dd-homepage',
-				alt: 'Tampa Dunkinn’ Homepage',
+				alt: 'Tampa Dunkin’ Homepage',
 				title: 'Homepage',
 				isBrowserPreview: true
 			},
@@ -337,8 +354,14 @@ const caseStudies = [
 			},
 			{
 				src: 'dunkin-sitemap',
-				alt: 'Tampa Dunkinn’ Sitemap',
+				alt: 'Tampa Dunkin’ Sitemap',
 				title: 'Sitemap',
+				isBrowserPreview: false
+			},
+			{
+				src: 'dunkin-wireframes',
+				alt: 'Tampa Dunkin’ wireframes',
+				title: 'Wireframes',
 				isBrowserPreview: false
 			}
 		],
@@ -411,14 +434,20 @@ const caseStudies = [
 			{
 				src: 'jivey-sitemap',
 				alt: 'Jive',
-				title: 'Homepage',
+				title: 'Sitemap',
+				isBrowserPreview: false
+			},
+			{
+				src: 'jivey-wireframes',
+				alt: 'Jivey',
+				title: 'Wireframes',
 				isBrowserPreview: false
 			}
 		],
 		shortDescription: `Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.`,
 		longDescription: `<p>Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.</p><p>As one of the original co-founders of the start-up, I had the opportunity to help develop the branding, app features, and system architecture for the end-user experience.  Once these items were packaged up, we had several meetings with prospective investors who saw the value, and we came close to an agreement with multiple angel investors. Now that the platform has made it into a functional Beta, the Jivey team feels that the platform would flourish once integrated into a B2B or B2C infrastructure to serve a more focused purpose.</p>
 
-		/*<p><span class="font-bold">Web Services:</span>
+		<!--<p><span class="font-bold">Web Services:</span>
 			<ul>
 				<li>Website Strategy & Userflow </li>
 				<li>CX Wireframes</li>
@@ -426,7 +455,7 @@ const caseStudies = [
 				<li>Frontend & CMS Development </li>
 				<li>Website Support / Growth </li>
 			</ul>
-		</p>*/` // can be html
+		</p>-->` // can be html
 	},
 	{
 		slug: 'the-propeller-club',
@@ -497,19 +526,57 @@ const caseStudies = [
 		slug: 'swift-delivery',
 		name: 'Swift Delivery',
 		mainImage: {
-			src: 'jivey-sitemap',
-			alt: 'Jivey Sitemap',
+			src: 'swift-1',
+			alt: 'Swift Delivery',
 			isBrowserPreview: false
-		},
-		button: {
-			url: 'https://www.allpointretail.com/',
-			text: 'View Live Site'
 		},
 		images: [
 			{
-				src: 'jivey-sitemap',
-				alt: 'Jive',
-				title: 'Homepage',
+				src: 'swift-1',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-2',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-3',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-4',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-5',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-6',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-7',
+				alt: 'Swift Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
+				src: 'swift-wireframes',
+				alt: 'Swift Delivery',
+				title: '',
 				isBrowserPreview: false
 			}
 		],
@@ -533,6 +600,41 @@ const caseStudies = [
 				<li>Website Support / Growth </li>
 			</ul>
 		</p>` // can be html
+	},
+	{
+		slug: 'cabinet-chic',
+		name: 'Cabinet Chic',
+		mainImage: {
+			src: 'cabinet-chic-homepage',
+			alt: 'Cabinet Chic Homepage',
+			isBrowserPreview: true
+		},
+		button: {
+			url: 'https://www.allpointretail.com/',
+			text: 'View Live Site'
+		},
+		images: [
+			{
+				src: 'cabinet-chic-homepage',
+				alt: 'Cabinet Chic Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'cabinet-chic-services',
+				alt: 'Cabinet Chic Services',
+				title: 'Services',
+				isBrowserPreview: true
+			},
+			{
+				src: 'cabinet-chic-sitemap',
+				alt: 'Cabinet Chic Site Map',
+				title: 'Site Map',
+				isBrowserPreview: false
+			}
+		],
+		shortDescription: `The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.`,
+		longDescription: `<p>The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.</p>` // can be html
 	}
 ];
 const cta = {
