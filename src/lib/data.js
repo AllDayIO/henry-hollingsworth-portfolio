@@ -125,6 +125,18 @@ const caseStudies = [
 		},
 		images: [
 			{
+				src: 'pcs-sitemap',
+				alt: 'PCS Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
+			},
+			{
+				src: 'pcs-wireframes',
+				alt: 'PCS wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
+			},
+			{
 				src: 'pcs',
 				alt: 'PCS Homepage',
 				title: 'Blog Homepage',
@@ -148,21 +160,9 @@ const caseStudies = [
 				alt: '&build Homepage',
 				title: 'Creatives Page',
 				isBrowserPreview: true
-			},
-			{
-				src: 'pcs-sitemap',
-				alt: 'PCS Sitemap',
-				title: 'Sitemap',
-				isBrowserPreview: false
-			},
-			{
-				src: 'pcs-wireframes',
-				alt: 'PCS wireframes',
-				title: 'Wireframes',
-				isBrowserPreview: false
 			}
 		],
-		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth. 
+		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. 
 		`,
 		longDescription: `<p>A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth.</p>
 		
@@ -191,6 +191,12 @@ const caseStudies = [
 		},
 		images: [
 			{
+				src: 'red-ventures-blog',
+				alt: 'Blog Wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
+			},
+			{
 				src: 'rv-blog',
 				alt: 'Red Ventures Blog',
 				title: 'Blog Homepage',
@@ -213,15 +219,9 @@ const caseStudies = [
 				alt: 'Red Ventures Creatives',
 				title: 'Creatives Page',
 				isBrowserPreview: true
-			},
-			{
-				src: 'red-ventures-blog',
-				alt: 'Blog Wireframes',
-				title: 'Wireframes',
-				isBrowserPreview: false
 			}
 		],
-		shortDescription: `Custom Wordpress blog and PHP/GreenHouse API careers site for Red Ventures.`,
+		shortDescription: `The international technology marketing powerhouse, Red Ventures, contracted us to create their custom Blog & Careers site to help attract quality team members and new business.`,
 		longDescription: `<p>I've worked with Red Ventures a handful of times.  This set of projects contained a Blog and a Careers site.  The Blog is is a custom Wordpress build, with the goal creating a more editorial feeling experience.  The Careers site is a custom PHP build tied tot he Greenhouse.io API.</p>` // can be html
 	},
 
@@ -235,16 +235,16 @@ const caseStudies = [
 		},
 		images: [
 			{
-				src: 'flyusa-homepage',
-				alt: 'Fly USA',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
-			{
 				src: 'fly-usa-sitemap',
 				alt: 'Fly Sitemap',
 				title: 'Sitemap',
 				isBrowserPreview: false
+			},
+			{
+				src: 'flyusa-homepage',
+				alt: 'Fly USA',
+				title: 'Homepage',
+				isBrowserPreview: true
 			},
 			{
 				src: 'flyusa-booking',
@@ -259,7 +259,7 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience. We architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, we create a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.`,
+		shortDescription: `A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience.`,
 		longDescription: `<p>A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience. We architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, we create a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.</p>
 
 		<p><span class="font-bold">Web Services:</span>
@@ -287,6 +287,18 @@ const caseStudies = [
 		},
 		images: [
 			{
+				src: 'daily-hangar-sitemap',
+				alt: 'Daily Hangar Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
+			},
+			{
+				src: 'daily-hangar-wireframes',
+				alt: 'Daily Hangar Wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
+			},
+			{
 				src: 'dailyhangar-homepage',
 				alt: 'Daily Hangar Homepage',
 				title: 'Homepage',
@@ -304,18 +316,10 @@ const caseStudies = [
 				alt: 'Daily Hangar map',
 				title: 'Site Map',
 				isBrowserPreview: true
-			},
-			{
-				src: 'daily-hangar-sitemap',
-				alt: 'Daily Hangar Sitemap',
-				title: 'Sitemap',
-				isBrowserPreview: false
 			}
 		],
-		shortDescription: `A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. 
-		Web Services`,
-		longDescription: `<p>A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. 
-		Web Services</p>
+		shortDescription: `A Denver start-up partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes.`,
+		longDescription: `<p>A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. </p>
 
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
@@ -341,18 +345,6 @@ const caseStudies = [
 		},
 		images: [
 			{
-				src: 'tampa-dd-homepage',
-				alt: 'Tampa Dunkin’ Homepage',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
-			{
-				src: 'tampa-dd-employment',
-				alt: 'Employment Page',
-				title: 'Employment Page',
-				isBrowserPreview: true
-			},
-			{
 				src: 'dunkin-sitemap',
 				alt: 'Tampa Dunkin’ Sitemap',
 				title: 'Sitemap',
@@ -363,6 +355,18 @@ const caseStudies = [
 				alt: 'Tampa Dunkin’ wireframes',
 				title: 'Wireframes',
 				isBrowserPreview: false
+			},
+			{
+				src: 'tampa-dd-homepage',
+				alt: 'Tampa Dunkin’ Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'tampa-dd-employment',
+				alt: 'Employment Page',
+				title: 'Employment Page',
+				isBrowserPreview: true
 			}
 		],
 		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
@@ -396,20 +400,21 @@ const caseStudies = [
 			text: 'View Live Site'
 		},
 		images: [
-			{
-				src: 'allpoint-homepage',
-				alt: 'All Point Retail Homepage',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
+			
 			{
 				src: 'allpoint-wireframes',
 				alt: 'All Point Retail Wireframes',
 				title: 'Employment Page',
 				isBrowserPreview: true
+			},
+			{
+				src: 'allpoint-homepage',
+				alt: 'All Point Retail Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
 			}
 		],
-		shortDescription: `All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. `,
+		shortDescription: `All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their online brand presence in the technology design space. `,
 		longDescription: `<p>All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. </p>
 
 		<p><span class="font-bold">Web Services:</span>
@@ -444,7 +449,7 @@ const caseStudies = [
 				isBrowserPreview: false
 			}
 		],
-		shortDescription: `Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.`,
+		shortDescription: `Jivey is the first application to harness word-of-mouth marketing and while this project is still attracting the right investors, it has made quite a splash for both businesses & sales professionals.`,
 		longDescription: `<p>Jivey is the first application to harness word-of-mouth marketing. ­­­This web & mobile app allows businesses to create campaigns for their products/services through the Jivey's community (salesforce, influencers, family, friends) connecting people in need with a reliable network of trusted professional services. Unlike Google AdWords or PPC, Jivey's interconnected platform allows for in-person referrals, increasing the conversion rate of successful sales.</p><p>As one of the original co-founders of the start-up, I had the opportunity to help develop the branding, app features, and system architecture for the end-user experience.  Once these items were packaged up, we had several meetings with prospective investors who saw the value, and we came close to an agreement with multiple angel investors. Now that the platform has made it into a functional Beta, the Jivey team feels that the platform would flourish once integrated into a B2B or B2C infrastructure to serve a more focused purpose.</p>
 
 		<!--<p><span class="font-bold">Web Services:</span>
@@ -471,18 +476,6 @@ const caseStudies = [
 		},
 		images: [
 			{
-				src: 'tpc-homepage',
-				alt: 'The Propeller Club',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
-			{
-				src: 'tpc-education',
-				alt: 'The Propeller Club',
-				title: 'Local Outreach Page',
-				isBrowserPreview: true
-			},
-			{
 				src: 'tpc-sitemap',
 				alt: 'The Propeller Club',
 				title: 'Site Map',
@@ -495,13 +488,31 @@ const caseStudies = [
 				isBrowserPreview: false
 			},
 			{
-				src: 'tpc-member-portal',
+				src: 'tpc-homepage',
+				alt: 'The Propeller Club',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'tpc-education',
+				alt: 'The Propeller Club',
+				title: 'Local Outreach Page',
+				isBrowserPreview: true
+			},
+			{
+				src: 'TPC-Admin_Dashboard',
 				alt: 'The Propeller Club Member Portal',
 				title: 'Member Portal',
-				isBrowserPreview: false
+				isBrowserPreview: true
+			},
+			{
+				src: 'TPC_Admin_-_Donate',
+				alt: 'The Propeller Club Member Portal',
+				title: 'Member Donation',
+				isBrowserPreview: true
 			}
 		],
-		shortDescription: `The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. `,
+		shortDescription: `The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved.`,
 		longDescription: `<p>The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. </p>
 
 		<p><span class="font-bold">User Experience:</span>
@@ -524,80 +535,82 @@ const caseStudies = [
 	},
 	{
 		slug: 'swift-delivery',
-		name: 'Swift Delivery',
+		name: 'Boom Delivery',
 		mainImage: {
 			src: 'swift-1',
-			alt: 'Swift Delivery',
+			alt: 'Boom Delivery',
 			isBrowserPreview: false
 		},
 		images: [
 			{
+				src: 'swift-wireframes',
+				alt: 'Boom Delivery',
+				title: '',
+				isBrowserPreview: false
+			},
+			{
 				src: 'swift-1',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-2',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-3',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-4',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-5',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-6',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			},
 			{
 				src: 'swift-7',
-				alt: 'Swift Delivery',
-				title: '',
-				isBrowserPreview: false
-			},
-			{
-				src: 'swift-wireframes',
-				alt: 'Swift Delivery',
+				alt: 'Boom Delivery',
 				title: '',
 				isBrowserPreview: false
 			}
 		],
-		shortDescription: `The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. `,
-		longDescription: `<p>The Propeller Club (TPC) is an international network of businesses / individuals in the maritime industry. Last year the largest TPC chapter in the U.S., Port Tampa, reached out to us with an interest in revamping its online presence to have more of a member focus and providing resources to get members/volunteers involved. After redesigning their brand website to include integrated marketing strategies, an event calendar, and a resource center, we created an interactive member portal to facilitate networking, messaging, donations, and directories for their 750+ members. </p>
+		shortDescription: `In an ongoing client-partnership with a cannabis delivery company in Washington, D.C., the client approached us with an idea for a delivery platform that collectively supported the many delivery companies in the D.C. area. Within a week, I had a plan in place to develop this custom web-based delivery platform that included a unique feature for customers to order with any delivery service in the area through this web-app. `,
+		longDescription: `<p>In an ongoing client-partnership with a cannabis delivery company in Washington, D.C., the client approached us with an idea for a delivery platform that collectively supported the many delivery companies in the D.C. area. Within a week, I had a plan in place to develop this custom web-based delivery platform that included a unique feature for customers to order with any delivery service in the area through this web-app. From concept to launch, my team and I developed the branding, execution plan, CX wireframes, UX design system, and the interactive web-app to facilitate real-time order requests & deliveries for the D.C. area. Despite a successful round of Beta testing, inner-business political issues dissolved our partnership and we decided not to proceed with growing this new company. While we don't get to watch this company flourish, it was an incredible journey observing an idea with a clear vision go from concept to creation. </p>
 
 		<p><span class="font-bold">User Experience:</span>
 			<ul>
-				<li>The website's event & news areas will increase member awareness as they engage through social media and get involved; </li>
-				<li>find industry resources, volunteer / educational outreach opportunities through the email newsletter, webpages and local SEO strategies; </li>
-				<li>an email automation series & submitted applications will drive members to their interactive portal to get involved. </li>
-				<li>continue optimizing the visibility of the TPC website through ongoing content, integrated marketing & SEO strategies. </li>
+				<li>Quick access to start order, navigate menu, and request delivery </li>
+				<li>Successful orders pair a delivery person, their details, and a countdownt to delivery</li>
+				<li>Unique user experience & Dashboard for delivery companies to manage their details and track orders / revenue </li>
+				<li>Custom SuperAdmin to manage all companies, customers, products, and more </li>
 			</ul>
 		</p>
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
-				<li>Website Strategy & Userflow </li>
-				<li>CX Wireframes</li>
+				<li>Branding </li>
+				<li>System Architecture</li>
 				<li>UX Design System </li>
-				<li>Frontend & CMS Development </li>
-				<li>Website Support / Growth </li>
+				<li>PWA JS Framework </li>
+				<li>Custom Frontend Development</li>
+				<li>Server-side Platform Development</li>
+				<li>Beta testing for companies & customers </li> 
 			</ul>
 		</p>` // can be html
 	},
@@ -615,6 +628,12 @@ const caseStudies = [
 		},
 		images: [
 			{
+				src: 'cabinet-chic-sitemap',
+				alt: 'Cabinet Chic Site Map',
+				title: 'Site Map',
+				isBrowserPreview: false
+			},
+			{
 				src: 'cabinet-chic-homepage',
 				alt: 'Cabinet Chic Homepage',
 				title: 'Homepage',
@@ -625,15 +644,9 @@ const caseStudies = [
 				alt: 'Cabinet Chic Services',
 				title: 'Services',
 				isBrowserPreview: true
-			},
-			{
-				src: 'cabinet-chic-sitemap',
-				alt: 'Cabinet Chic Site Map',
-				title: 'Site Map',
-				isBrowserPreview: false
 			}
 		],
-		shortDescription: `The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.`,
+		shortDescription: `The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins and wanted to create a website that reflected her quality of work. After two years with a new website, last year website visitors increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming the reliable customer experience.`,
 		longDescription: `<p>The Cabinet Chic is a custom cabinetry company based in Tampa, Florida, with a focus on high-end personalized built-ins. The goal was to take the outdated brochure-based website and transform it into a brand marketing website that reflects the quality and personalization of their work. Speaking directly to the target audience, this optimized website takes prospective customers on a visual journey to filter their experience and create a vision for their home updates. Through the UX design system, SEO integration & content marketing, Over the last year, website visitors have increased by 119%, new visitors by 130%, and returning visitors by 134%, confirming a reliable customer experience.</p>` // can be html
 	}
 ];
