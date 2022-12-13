@@ -27,7 +27,7 @@ const titles = [
 	'Your Hype Man '
 ];
 
-const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and producer of personalized online experiences that resonate with their target audience. My expertise in user experience, design systems, and brand marketing growth strategies help businesses develop a strong foundation to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
+const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and producer of personalized online customer experiences (CX). My expertise in user experience (UX), design systems, and brand marketing growth strategies help businesses develop a strong foundation & LeadGen strategies to scale. After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
 const cloudinaryConfig = {
 	cloudName: 'kenjones',
 	folder: 'henry-hollingsworth' // leave blank if no folder was used
@@ -37,7 +37,7 @@ const logoImage = {
 	alt: name
 };
 const bioImages = [
-	{ src: 'henry-1', alt: name },
+	{ src: 'henry-selfie', alt: name },
 	{ src: 'onewheel-hen', alt: name },
 	{ src: 'henry-denver', alt: name }
 ];
@@ -65,7 +65,7 @@ const resume = `<!-- Entry -->
 						<h3 class="font-serif text-2xl leading-none mb-1	">
 							<span class="font-bold">Vology</span> (Tampa, FL)
 						</h3>
-						<h4 class="text-xl font-medium italic">Designer/Engineer</h4>
+						<h4 class="text-xl font-medium italic">Designer/Developer/Marketer</h4>
 						
 					</div>
 				</div>
@@ -91,7 +91,7 @@ const resume = `<!-- Entry -->
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">Paradise Advertising and Marketing</span> (St. Petersburg, Fl.)
+							<span class="font-bold">Paradise Advertising</span> (St. Pete, Fl.)
 							- Agency
 						</h3>
 						<h4 class="text-xl font-medium italic">Digital Manager / Social Media Manager - 2013 - 2014<br />
@@ -134,7 +134,7 @@ const caseStudies = [
 				src: 'pcs-wireframes',
 				alt: 'PCS wireframes',
 				title: 'Wireframes',
-				isBrowserPreview: false
+				isBrowserPreview: true
 			},
 			{
 				src: 'pcs',
@@ -239,6 +239,18 @@ const caseStudies = [
 				alt: 'Fly Sitemap',
 				title: 'Sitemap',
 				isBrowserPreview: false
+			},
+			{
+				src: 'flyusa-booking-wireframespng',
+				alt: 'FlyUSA Booking Tool',
+				title: 'FlyUSA Booking Tool',
+				isBrowserPreview: true
+			},
+			{
+				src: 'flyusa-screenwireframes',
+				alt: 'FlyUSA Wireframes',
+				title: 'FlyUSA Screen Wireframes',
+				isBrowserPreview: true
 			},
 			{
 				src: 'flyusa-homepage',
@@ -366,6 +378,12 @@ const caseStudies = [
 				src: 'tampa-dd-employment',
 				alt: 'Employment Page',
 				title: 'Employment Page',
+				isBrowserPreview: true
+			},
+			{
+				src: 'dunkin-cms',
+				alt: 'custom cms development',
+				title: 'Custom CMS',
 				isBrowserPreview: true
 			}
 		],
@@ -501,9 +519,15 @@ const caseStudies = [
 			},
 			{
 				src: 'TPC-Admin_Dashboard',
-				alt: 'The Propeller Club Member Portal',
-				title: 'Member Portal',
+				alt: 'TPC Member Portal',
+				title: 'TPC Member Portal Dashboard',
 				isBrowserPreview: true
+			},
+			{
+				src: 'TPC-Admin_Directory',
+				alt: 'Member Directory',
+				title: 'Member Directory',
+				isBrowserPreview: false
 			},
 			{
 				src: 'TPC_Admin_-_Donate',
@@ -529,7 +553,8 @@ const caseStudies = [
 				<li>CX Wireframes</li>
 				<li>UX Design System </li>
 				<li>Frontend & CMS Development </li>
-				<li>Website Support / Growth </li>
+				<li>Gated Content Subscription Platform Development</li>
+				<li>Website & Platform Support / Growth </li>
 			</ul>
 		</p>` // can be html
 	},
