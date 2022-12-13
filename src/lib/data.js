@@ -27,7 +27,7 @@ const titles = [
 	'Your Hype Man '
 ];
 
-const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and <strong>producer of personalized online customer experiences</strong> (CX). My expertise in user experience (UX), design systems, and brand marketing growth strategies helping businesses develop a strong foundation to sacle. <strong>After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</strong></p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
+const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and <strong>producer of personalized online customer experiences</strong> (CX). My expertise in user experience (UX), design systems, development frameworks, and brand marketing growth strategies helping businesses develop a strong foundation to sacle. <strong>After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</strong></p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
 const cloudinaryConfig = {
 	cloudName: 'kenjones',
 	folder: 'henry-hollingsworth' // leave blank if no folder was used
@@ -184,6 +184,64 @@ const caseStudies = [
 		</p>`, // can be html
 		button: {
 			url: 'https://pcscompanies.com',
+			text: 'View Live Site'
+		}
+	},
+	{
+		slug: 'tampa-dunkin',
+		name: 'Tampa Dunkin’ Donuts',
+		mainImage: {
+			src: 'tampa-dd-homepage',
+			alt: 'Tampa Dunkinn Homepage',
+			isBrowserPreview: true
+		},
+		images: [
+			{
+				src: 'dunkin-sitemap',
+				alt: 'Tampa Dunkin’ Sitemap',
+				title: 'Sitemap',
+				isBrowserPreview: false
+			},
+			{
+				src: 'dunkin-wireframes',
+				alt: 'Tampa Dunkin’ wireframes',
+				title: 'Wireframes',
+				isBrowserPreview: false
+			},
+			{
+				src: 'tampa-dd-homepage',
+				alt: 'Tampa Dunkin’ Homepage',
+				title: 'Homepage',
+				isBrowserPreview: true
+			},
+			{
+				src: 'tampa-dd-employment',
+				alt: 'Employment Page',
+				title: 'Employment Page',
+				isBrowserPreview: true
+			},
+			{
+				src: 'dunkin-cms',
+				alt: 'custom cms development',
+				title: 'Custom CMS',
+				isBrowserPreview: true
+			}
+		],
+		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
+		longDescription: `<p>Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
+
+		<p><span class="font-bold">Web Services:</span>
+			<ul>
+				<li>Sitemap Userflow </li>
+				<li>UX Wireframes </li>
+				<li>Custom Design System</li>
+				<li>JS Frontend Development</li>
+				<li>Custom CMS </li>
+				<li>Ongoing Support</li>
+			</ul>
+		</p>`, // can be html
+		button: {
+			url: 'https://tampadd.com',
 			text: 'View Live Site'
 		}
 	},
@@ -352,64 +410,6 @@ const caseStudies = [
 				<li>Maintenance / Support</li>
 			</ul>
 		</p>` // can be html
-	},
-	{
-		slug: 'tampa-dunkin',
-		name: 'Tampa Dunkin’ Donuts',
-		mainImage: {
-			src: 'tampa-dd-homepage',
-			alt: 'Tampa Dunkinn Homepage',
-			isBrowserPreview: true
-		},
-		images: [
-			{
-				src: 'dunkin-sitemap',
-				alt: 'Tampa Dunkin’ Sitemap',
-				title: 'Sitemap',
-				isBrowserPreview: false
-			},
-			{
-				src: 'dunkin-wireframes',
-				alt: 'Tampa Dunkin’ wireframes',
-				title: 'Wireframes',
-				isBrowserPreview: false
-			},
-			{
-				src: 'tampa-dd-homepage',
-				alt: 'Tampa Dunkin’ Homepage',
-				title: 'Homepage',
-				isBrowserPreview: true
-			},
-			{
-				src: 'tampa-dd-employment',
-				alt: 'Employment Page',
-				title: 'Employment Page',
-				isBrowserPreview: true
-			},
-			{
-				src: 'dunkin-cms',
-				alt: 'custom cms development',
-				title: 'Custom CMS',
-				isBrowserPreview: true
-			}
-		],
-		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
-		longDescription: `<p>Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
-
-		<p><span class="font-bold">Web Services:</span>
-			<ul>
-				<li>Sitemap Userflow </li>
-				<li>UX Wireframes </li>
-				<li>Custom Design System</li>
-				<li>JS Frontend Development</li>
-				<li>Custom CMS </li>
-				<li>Ongoing Support</li>
-			</ul>
-		</p>`, // can be html
-		button: {
-			url: 'https://tampadd.com',
-			text: 'View Live Site'
-		}
 	},
 	{
 		slug: 'allpoint-retail',
@@ -662,6 +662,18 @@ const caseStudies = [
 				src: 'cabinet-chic-sitemap',
 				alt: 'Cabinet Chic Site Map',
 				title: 'Site Map',
+				isBrowserPreview: false
+			},
+			{
+				src: 'hcab-sitemap',
+				alt: 'Cabinetry Site Map',
+				title: 'Custom Cabinetry Userflow',
+				isBrowserPreview: false
+			},
+			{
+				src: 'hcab-wireframes',
+				alt: 'Cabinetry Wireframes',
+				title: 'Custom Cabinetry Wireframes',
 				isBrowserPreview: false
 			},
 			{
