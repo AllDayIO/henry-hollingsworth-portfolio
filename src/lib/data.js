@@ -112,12 +112,8 @@ const resume = `<!-- Entry -->
 						</h4>
 					</div>
 				</div>
-				button: {
-					url: 'https://res.cloudinary.com/kenjones/image/upload/v1670906178/henry-hollingsworth/Henry_Hollingsworth_resume_v1.pdf',
-					text: 'View Resume'
-						}
 				`;
-				
+
 const caseStudies = [
 	{
 		slug: 'pcs',
@@ -443,7 +439,6 @@ const caseStudies = [
 			text: 'View Live Site'
 		},
 		images: [
-			
 			{
 				src: 'allpoint-wireframes',
 				alt: 'All Point Retail Wireframes',
@@ -728,7 +723,6 @@ const caseStudies = [
 				<li>Ongoing Support / Growth</li> 
 			</ul>
 		</p>` // can be html
-		
 	}
 ];
 const cta = {
