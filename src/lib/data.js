@@ -27,7 +27,7 @@ const titles = [
 	'Your Hype Man '
 ];
 
-const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and <strong>producer of personalized online customer experiences</strong> (CX). My expertise in user experience (UX), design systems, development frameworks, and brand marketing growth strategies helping businesses create a strong foundation to sacle. <strong>After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</strong></p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. </p>`;
+const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and <strong>producer of personalized online customer experiences</strong> (CX). My expertise in user experience (UX), design systems, development frameworks, and brand marketing growth strategies helps businesses create a strong foundation to scale. <strong>After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</strong></p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. </p>`;
 const cloudinaryConfig = {
 	cloudName: 'kenjones',
 	folder: 'henry-hollingsworth' // leave blank if no folder was used
@@ -91,8 +91,7 @@ const resume = `<!-- Entry -->
 					</div>
 					<div class="-mt-2 md:mt-auto prose prose-sm">
 						<h3 class="font-serif text-2xl leading-none mb-1	">
-							<span class="font-bold">Paradise Advertising</span> (St. Pete, Fl.)
-							- Agency
+							<span class="font-bold">Paradise Advertising</span> (St. Petersburg, Fl.)
 						</h3>
 						<h4 class="text-xl font-medium italic">Digital Manager / Social Media Manager - 2013 - 2014<br />
 						Interactive / Public Relations Coordinator - 2012 - 2013</h4>
@@ -133,38 +132,38 @@ const caseStudies = [
 			{
 				src: 'pcs-sitemap',
 				alt: 'PCS Sitemap',
-				title: 'Sitemap',
+				title: 'Sitemap / Userflow',
 				isBrowserPreview: false
 			},
 			{
 				src: 'pcs-wireframes',
 				alt: 'PCS wireframes',
-				title: 'Wireframes',
+				title: '3-Site Wireframes',
 				isBrowserPreview: true
 			},
 			{
 				src: 'pcs',
 				alt: 'PCS Homepage',
-				title: 'Blog Homepage',
+				title: 'PCS Homepage',
 				isBrowserPreview: true
 			},
 
 			{
 				src: 'pcs-locations',
 				alt: 'PCS Locations',
-				title: 'Blog Post',
+				title: 'National Locations',
 				isBrowserPreview: true
 			},
 			{
 				src: 'and-estimate',
 				alt: '&estimate Homepage',
-				title: 'Careers Homepage',
+				title: '&estimate Homepage',
 				isBrowserPreview: true
 			},
 			{
 				src: 'and-build',
 				alt: '&build Homepage',
-				title: 'Creatives Page',
+				title: '&build Homepage',
 				isBrowserPreview: true
 			}
 		],
@@ -172,6 +171,17 @@ const caseStudies = [
 		`,
 		longDescription: `<p>A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth.</p>
 		
+		<p><span class="font-bold">User Experience:</span>
+			<ul>
+				<li>Create an experience with perceived value as leaders in their industry</li>
+				<li>Dyanmic experience facilitating access to 3 connected websites (PCS; &estimate; &build)</li>
+				<li>Unified mega-menu allows customer / sales team to navigate target areas seamlessly</li>
+				<li>Website serves as a sales tool and customer support tool throughout the process</li>
+				<li>Industry landing pages help target prospects filter their preferences & convert</li>
+				<li>Dynamic case study gallery grows credibility as users journey through impressive projects</li>
+				<li>Lead generation funnels strategically placed across 12 optimal areas</li>
+			</ul>
+		</p>
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
 				<li>3 websites on a Monorepo </li>
@@ -230,6 +240,15 @@ const caseStudies = [
 		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
 		longDescription: `<p>Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
 
+		<p><span class="font-bold">User Experience:</span>
+			<ul>
+				<li>Website designed for loyal customers & prospective employees as a resource & support tool</li>
+				<li>Interactive locations map & directory pinpointing the Dunkin' locations across Tampa Bay</li>
+				<li>Accessible employment funnels with access to manager & general employee applications</li>
+				<li>Advanced web forms to manage uploading of resumes & documents</li>
+				<li>Develop a website design that adopts the look/feel/style of Dunkin' Brands.</li>
+			</ul>
+		</p>
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
 				<li>Sitemap Userflow </li>
