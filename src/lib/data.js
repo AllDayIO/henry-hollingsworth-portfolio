@@ -7,7 +7,7 @@ const links = {
 	},
 	linkedIn: 'https://www.linkedin.com/in/henryhollingsworth/',
 	resume:
-		'https://res.cloudinary.com/kenjones/image/upload/v1670906178/henry-hollingsworth/Henry_Hollingsworth_resume_v1.pdf', // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
+		'https://res.cloudinary.com/kenjones/image/upload/v1673298571/Henry_Hollingsworth_resume_v2.pdf', // If placing in the static dir, use /resume/YOUR_RESUME.pdf.  Otherwise any old URL will do.
 	menu: {
 		linkedIn: 'https://www.linkedin.com/in/henryhollingsworth/'
 	}
@@ -15,14 +15,15 @@ const links = {
 const titles = [
 	'Explorer',
 	'Solutionist ',
-	'Deep Thinker',
-	'Conceptor ',
+	'Empath ',
+	'Conceptor',
+	'Prototyper ',
 	'Designer',
 	'Producer',
-	'Nature Enthusiast',
-	'One-Wheeler',
 	'Collaborator',
-	'Web Architect',
+	'Nature Lover',
+	'One-Wheeler',
+	'UX Architect',
 	'Digital Marketer',
 	'Your Hype Man '
 ];
