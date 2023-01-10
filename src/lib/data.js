@@ -13,19 +13,12 @@ const links = {
 	}
 };
 const titles = [
-	'Explorer',
-	'Solutionist ',
-	'Empath ',
-	'Conceptor',
-	'Prototyper ',
-	'Designer',
-	'Producer',
-	'Collaborator',
-	'Nature Lover',
-	'One-Wheeler',
+	'Sincere Leader',
 	'UX Architect',
-	'Digital Marketer',
-	'Your Hype Man '
+	'Empathetic Marketer',
+	'Explorer',
+	'Team Player',
+	'Your Hype Man'
 ];
 
 const bio = `<p class="font-serif text-2xl lg:text-4xl font-base leading-tight">I am a web consultant and <strong>producer of personalized online customer experiences</strong> (CX). My expertise in user experience (UX), design systems, development frameworks, and brand marketing growth strategies helps businesses create a strong foundation to scale. <strong>After 12 years in web, I'm ready to collaborate & innovate with a unified team & company.</strong></p><p class="text-xl lg:text-2xl text-gray/70 leading-normal">Experienced in entrepreneurial business leadership focusing on driving organizational optimization and growth. Provides expert recommendations for organizations on user experience success, brand design goals, and profitable digital strategies. Bridge the gap between technology, operations, and business growth through collaborative solutions, support initiatives, and hyper-growth efforts. </p>`;
