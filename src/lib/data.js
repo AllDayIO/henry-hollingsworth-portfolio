@@ -729,6 +729,38 @@ const cta = {
 	heading: 'I’m currently looking for new opportunities',
 	text: `After a successful 7-year stint running a web agency, I'm ready for my next challenge. With over 12 years of experience in branding, design, UX, web development, and digital media, I feel ready to partner with a company I'm passionate about to unlock our next level together.` // Can be HTML
 };
+const logos = [
+	{
+		name: 'Dunkin',
+		src: 'dunkin', // from Cloudinary
+		desaturate: false
+	},
+	{
+		name: 'Ikea',
+		src: 'ikea', // from Cloudinary
+		desaturate: false
+	},
+	{
+		name: 'SmashBurger',
+		src: 'smashburger', // from Cloudinary
+		desaturate: false
+	},
+	{
+		name: 'Red Ventures',
+		src: 'red-ventures', // from Cloudinary
+		desaturate: false
+	},
+	{
+		name: 'Tampa Bay Buccaneers',
+		src: 'tampa-bay-buccaneers', // from Cloudinary
+		desaturate: false
+	},
+	{
+		name: 'The Tennis Channel',
+		src: 'the-tennis-channel', // from Cloudinary
+		desaturate: false
+	}
+];
 const copyright = 'Henry Hollingsworth';
 const meta = {
 	favicon: 'henry-1',
@@ -759,6 +791,7 @@ export const data = {
 	caseStudies,
 	cloudinaryConfig,
 	cta,
+	logos,
 	copyright,
 	posthog,
 	sourceCode
