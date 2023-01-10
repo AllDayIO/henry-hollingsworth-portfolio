@@ -157,9 +157,9 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. 
+		shortDescription: `Partnered with a national commercial builder to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. 
 		`,
-		longDescription: `<p>A national commercial builder selected our team to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth.</p>
+		longDescription: `<p>Partnered with a national commercial builder to connect / amplify its online presence and reflect the quality of their work with some for the nation's most impressive buildings. These three service-websites are tethered together through a thoughtful navigation mega-menu, shared UI Component library, and a Monorepo system to facilitate updates across the three connected sites. Each website has its own integrated marketing & SEO strategy to generate individualized growth.</p>
 		
 		<p><span class="font-bold">User Experience:</span>
 			<ul>
@@ -227,8 +227,8 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
-		longDescription: `<p>Last year, we created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
+		shortDescription: `Created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.`,
+		longDescription: `<p>Created a website for Dunkin' and their locations in Tampa Bay that included a location-library and was a funnel for new employee applications. In the first two months, they received nearly 1,000  applicants through the new online job application form.</p>
 
 		<p><span class="font-bold">User Experience:</span>
 			<ul>
@@ -294,8 +294,8 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `The international technology marketing powerhouse, Red Ventures, contracted us to create their custom Blog & Careers site to help attract quality team members and new business.`,
-		longDescription: `<p>I've worked with Red Ventures a handful of times.  This set of projects contained a Blog and a Careers site.  The Blog is is a custom Wordpress build, with the goal creating a more editorial feeling experience.  The Careers site is a custom PHP build tied tot he Greenhouse.io API.</p>` // can be html
+		shortDescription: `Build custom Blog & Careers site for the international technology marketing powerhouse, Red Ventures, to attract quality team members and new business.`,
+		longDescription: `<p>I've worked with Red Ventures a handful of times. This set of projects contained a Blog and a Careers site.  The Blog is a custom Wordpress build, with the goal creating a more editorial feeling experience.  The Careers site is a custom PHP build tied to the Greenhouse.io API.</p>` // can be html
 	},
 
 	{
@@ -344,8 +344,8 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience.`,
-		longDescription: `<p>A national charter plane broker reached out to us this year to help elevate their brand & online customer experience design to resonate with their affluent audience. We architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, we create a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.</p>
+		shortDescription: `Elevate the brand & online customer experience design of a national charter plane broker to resonate with their affluent audience.`,
+		longDescription: `<p>Elevate the brand & online customer experience design of a national charter plane broker to resonate with their affluent audience. Architected a personalized design system for their 28-page infrastructure with modular layouts to scale the design as the company grows. In addition, created a fluid Booking Tool experience to help facilitate a seamless conversion process for qualified customers.</p>
 
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
@@ -403,8 +403,8 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `A Denver start-up partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes.`,
-		longDescription: `<p>A start-up in Denver, CO partnered with my team to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. </p>
+		shortDescription: `Partnered with a Denver start-up to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes.`,
+		longDescription: `<p>Partnered with a Denver, CO start-up to concept & create an industry-breaking website platform for the aviation industry, modeled after Airbnb, for pilots & charters to rent hangar-space at Regional Airports around the U.S. Through this rental-payment-platform, we created 4 user-experience-levels, dashboards & custom filtering systems to facilitate the Searching & Booking journey for pilots & hangar-hosts for hundreds of different plane-sizes. </p>
 
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
@@ -446,8 +446,8 @@ const caseStudies = [
 				isBrowserPreview: true
 			}
 		],
-		shortDescription: `All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their online brand presence in the technology design space. `,
-		longDescription: `<p>All Point Retail provides end-to-end technology & managed services for retail companies, and enlisted us to help shake-up their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. </p>
+		shortDescription: `All Point Retail provides end-to-end technology & managed services for retail companies, and together we revamped their online brand presence in the technology design space. `,
+		longDescription: `<p>All Point Retail provides end-to-end technology & managed services for retail companies, and together we revamped their brand in the technology design space. We created a customer experience design that reflects their skater vibes & fresh approach to a business's technology needs along with a dynamic journey through the website that builds trust and funnels prospective customer's to a consultation form. After the relaunch with a new Homepage design, form conversions have increased by over 35%, month over month. </p>
 
 		<p><span class="font-bold">Web Services:</span>
 			<ul>
